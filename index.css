@@ -7,13 +7,13 @@
 
 /* Set up the navigation bar */
 .navbar {
-    background-color: #333; /* Dark background */
+    background-color: #6a0dad; /* Purple background for the navbar */
     display: flex; /* Use flexbox to align items horizontally */
     justify-content: flex-start; /* Align links to the left */
     padding: 0; /* Remove additional padding */
     position: relative; /* Make navbar a positioned ancestor */
     z-index: 10; /* Ensure navbar is above other content */
-    height: 50px; /* Set a smaller fixed height for the navbar */
+    height: 50px; /* Set a fixed height for the navbar */
     align-items: center; /* Vertically center the links */
 }
 
@@ -21,7 +21,7 @@
 .navbar a {
     color: white; /* White text */
     text-align: center;
-    padding: 10px 15px; /* Adjusted padding for smaller spacing */
+    padding: 10px 15px; /* Adjusted padding for spacing */
     text-decoration: none; /* Remove underline */
     font-size: 16px; /* Adjust font size */
     line-height: 1; /* Ensure line height is normal */
@@ -29,7 +29,7 @@
 
 /* Change color of links on hover */
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: #9b30ff; /* Lighter purple on hover */
     color: black;
 }
 
@@ -44,7 +44,7 @@
     text-decoration: none;
     padding: 10px 15px; /* Adjust padding to match the navbar links */
     font-size: 16px; /* Adjust font size */
-    background-color: inherit;
+    background-color: inherit; /* Inherit purple color */
     border: none;
     cursor: pointer;
     position: relative; /* Ensure the button has proper relative positioning */
@@ -56,7 +56,7 @@
     position: absolute; /* Position dropdown content below the dropbtn */
     top: 100%; /* Ensure it stays directly below the dropdown button */
     left: 0; /* Align the dropdown to the left edge of the dropbtn */
-    background-color: #f9f9f9;
+    background-color: #6a0dad; /* Purple background for the dropdown */
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 999; /* Ensure dropdown is above all other content */
@@ -64,7 +64,7 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: white; /* White text in dropdown */
     padding: 6px 8px; /* Reduced padding for dropdown items */
     text-decoration: none;
     display: block;
@@ -73,7 +73,7 @@
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #9b30ff; /* Lighter purple on hover in dropdown */
 }
 
 /* Show the dropdown menu when hovering over the dropdown container or button */
@@ -84,7 +84,7 @@
 
 /* Change the background color of the dropdown button when hovered */
 .dropdown:hover .dropbtn {
-    background-color: #ddd;
+    background-color: #9b30ff; /* Lighter purple on hover */
     color: black;
 }
 
