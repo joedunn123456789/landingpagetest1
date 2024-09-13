@@ -95,4 +95,13 @@
     background-color: #f4f4f4;
     position: relative;
     z-index: 1; /* Ensure content is below the navbar */
+    font-family: 'Dancing Script', cursive; /* Google Font for mild cursive */
+    font-size: 24px; /* Default font size */
+}
+
+/* Responsive font size for mobile devices */
+@media (max-width: 768px) {
+    .content {
+        font-size: 20px; /* Smaller font size for mobile screens */
+    }
 }
