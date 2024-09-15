@@ -1,6 +1,6 @@
 # My Project - Landing Page Test
 
-Welcome to my project! This is a simple landing page showcasing Gigi's lifestyle as an elite powerlifter, gamer, and car enthusiast.
+Welcome to my project! This is a simple landing page
 
 ## View the Landing Page
 
