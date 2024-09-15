@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laugh, Sweat, Conquer</title>
+
+    <!-- Google Font: Dancing Script -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        /* Basic reset for margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Dancing Script', cursive;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #6a0dad;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .links a i {
+            margin-right: 8px; /* Space between icon and text */
+        }
+
+        .links a:hover {
+            background-color: #9b30ff;
+        }
+
+        .products-section {
+            margin: 50px 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .products-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 products per row */
+            gap: 20px;
+        }
+
+        /* Responsive Design: Stack products vertically on smaller screens */
+        @media (max-width: 768px) {
+            .products {
+                grid-template-columns: 1fr; /* Stack products in a single column on smaller screens */
+            }
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .product img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .product h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .product p {
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        .product a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #6a0dad;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .product a:hover {
+            background-color: #9b30ff;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Laugh, Sweat, Conquer</h1>
+    <p>Gigi, elite powerlifter, gamer, and car enthusiast.</p>
+
+    <div class="links">
+        <a href="mailto:gigi@email.com">Contact Me</a>
+        <a href="https://www.instagram.com/xxsandwichmaker/" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+    </div>
+
+    <!-- Products Section -->
+    <div class="products-section">
+        <h2>Products</h2>
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>This is a short description of product 1. It's a fantastic item!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>This is a short description of product 2. It's amazing!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>This is a short description of product 3. You'll love it!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>This is a short description of product 4. It's one of a kind!</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Gigi. All rights reserved.
+    </footer>
+
+</body>
+</html>
